@@ -1,0 +1,96 @@
+﻿
+<!DOCTYPE html>
+<Html>
+<head>
+Form Submission
+</head>
+<body>
+<h1 style="text-align:center;">
+<u>Basic Information<u/>
+</h1>
+<title>
+Registration Page
+</title>
+<body bgcolor="skyblue">
+<br>
+
+<form action="/action_page.php">
+
+<label> Firstname </label>       
+<input type="text" name="firstname" size="15"/> <br> <br>
+<label> Lastname: </label>       
+<input type="text" name="lastname" size="15"/> <br> <br>
+
+<br>
+<label> 
+Gender :
+</label><br>
+<input type="radio" name="male"/> Male <br>
+<input type="radio" name="female"/> Female <br>
+<input type="radio" name="other"/> Other
+<br>
+<br>
+<form action="/action_page.php">
+  <label for="birthday">Date of Birth:</label>
+  <input type="date" id="birthday" name="birthday">
+ 
+
+<br>
+<label for="cars">Religion:</label>
+
+
+<select name="Religion" id="religion">
+  <option value="Islam">Islam</option>
+  <option value="Hindu">Hindu</option>
+  <option value="Buddhist">Buddhist</option>
+  <option value="Christian">Christian</option>
+</select>
+<br>
+<br>
+<br>
+<h1 style="text-align:center;">
+<u>Contact Information</u>
+</h1>
+<br>
+<br>
+<label> 
+Phone Number:
+</label>
+<input type="text" name="country code"  value="+088" size="2"/> 
+<input type="text" name="phone" size="15"/> <br> <br>
+<form action="/action_page.php">
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email size="15">
+
+
+<label for="Present Address">Present Address:</label>
+
+<textarea id="Present Address" name="Present Address" rows="1" cols="50">
+ 
+  </textarea> 
+<br>
+<br>
+<label for="Permanent Address">Permanent Address:</label>
+
+<textarea id="Permanent Address" name="Permanent Address" rows="1" cols="50">
+
+  </textarea>
+<br>
+<br>
+<label for="weblink">Personal Website link:</label>
+<input type="url" id="weblink" name="Personal Website link">
+<br>
+<br>
+<h1 style="text-align:center;">
+<u>Account Information</u>
+</h1>
+
+  <label for="uname">Username:</label>
+  <input type="text" id="uname" name="uname"><br><br>
+<label for="pwd">Password: </label>
+<input type="password" id="pwd" name="pwd"><br><br>
+ <input type="submit" value="Submit" action=reset>
+</form>
+</body>
+</html>
+
